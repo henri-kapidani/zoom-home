@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Zoom Home</title>
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<!-- Font Awsome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- Style -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header class="header-main">
+		<div class="col-left">
+			<div class="btn btn-left">
+				<i class="fas fa-chevron-left"></i>
+			</div>
+			<div class="btn btn-right">
+				<i class="fas fa-chevron-right"></i>
+			</div>
+			<div class="search">
+				<i class="fas fa-search"></i>
+				<label for="search">Cerca</label>
+				<input type="text" name="q" id="search" placeholder="Cerca">
+			</div>
+		</div>
+
+		<nav class="col-center">
+			<ul class="nav-list">
+				<li>
+					<i class="fas fa-home"></i>
+					<div>Home</div>
+				</li>
+				<li>
+					<i class="far fa-comment"></i>
+					<div>Chattare</div>
+				</li>
+				<li>
+					<i class="far fa-clock"></i>
+					<div>Riunioni</div>
+				</li>
+				<li>
+					<i class="far fa-address-book"></i>
+					<div>Contatti</div>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="col-right">
+			<div class="btn btn-user">
+				<i class="far fa-user-circle"></i>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<div class="content">
+			<div class="grid">
+				<div class="tile">
+					<div class="btn btn-big btn-orange">
+						<i class="fas fa-video"></i>
+					</div>
+					<div class="tile-text">
+						Nuova Riunione
+					</div>
+				</div>
+
+				<div class="tile">
+					<div class="btn btn-big">
+						<i class="far fa-plus-square"></i>
+					</div>
+					<div class="tile-text">
+						Entra
+					</div>
+				</div>
+
+				<div class="tile">
+					<div class="btn btn-big">
+						<i class="far fa-calendar-alt"></i>
+					</div>
+					<div class="tile-text">
+						Calendario
+					</div>
+				</div>
+
+				<div class="tile">
+					<div class="btn btn-big">
+						<i class="fas fa-cloud-upload-alt"></i>
+					</div>
+					<div class="tile-text">
+						Condividi Schermo
+					</div>
+				</div>
+			</div>
+
+			<div class="calendar">
+				<div class="date">
+					<div class="date-time">7:17</div>
+					<div class="date-day">Lunedì 28 Giugno 2021</div>
+				</div>
+
+				<div class="list-meetings">
+					<div class="no-meetings">
+						Nessuna prossima riunione per oggi.
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+</body>
+</html>
